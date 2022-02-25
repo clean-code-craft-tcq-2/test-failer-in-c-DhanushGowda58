@@ -42,7 +42,8 @@ colorcode_s ColorCodeParserStub(int majorColorIndex, int minorColorIndex)
 /* Stub code to use in test enviroment, in production actual console interfaces can be called */
 void printColourCodeManualInConsoleStub(int majorColorIndex, int minorColorIndex, colorcode_s colorcode)
 {
-    printf("%d | %s | %s\n", majorColorIndex * 5 + minorColorIndex, colorcode.majorColor, colorcode.minorColor);
+    int major_minor_color_index = majorColorIndex * 5 + minorColorIndex;
+    printf("%d | %s | %s\n", major_minor_color_index, colorcode.majorColor, colorcode.minorColor);
     CountofColorCodesPrinted++;
 }
 
