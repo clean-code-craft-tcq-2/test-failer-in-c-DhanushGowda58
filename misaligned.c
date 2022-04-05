@@ -65,7 +65,6 @@ int printColorMapStub(void (*printColourCodeManualInConsole_FnPtr)(int,int,color
     return (minorColorIndex * majorColorIndex);
 }
 
-
 int main() {
     colorcode_s colorcode;
     int majorColorIndex = 0; 
