@@ -28,7 +28,6 @@ int alertInCelcius(float farenheit) {
 	int returnCode = networkAlertStub(celcius);
 	return returnCode;
 }
-
 int main() {
 	int returnCode;
 	returnCode = alertInCelcius(400.5);
